@@ -30,7 +30,7 @@ st.set_page_config(layout="wide")
 #PAGE 1:HOME
 if st.session_state["page"] == "home":
     st.title("📍 RTLS Smart Asset Movement Tracker")
-    st.markdown("### Welcome to the Smart Asset Analytics Platform by Agreefy")
+    st.markdown("### Welcome to My Smart Asset Analytics Platform")
 
     selected_domain = st.selectbox("Select your facility or RTLS domain:", list(domain_options.keys()))
     if st.button("Load Data"):
